@@ -1,12 +1,11 @@
 <script setup>
 defineProps({
-    count: Number,
-})
+  count: Number,
+});
 </script>
 
 <template>
-      <button type="button" @click="$emit('onClick')">abdabd count is {{ count }}</button>
+  <button type="button" @click="$emit('onClick')">count is {{ count }}</button>
 </template>
 
-<style>
-</style>
+<style></style>
